@@ -25,7 +25,11 @@ public class NewWindow {
 		driver.switchTo().newWindow(WindowType.TAB);
 		driver.switchTo().newWindow(WindowType.TAB);
 		driver.switchTo().newWindow(WindowType.TAB);
-		
+		//3rd version change done by JM
+		driver.switchTo().newWindow(WindowType.TAB);
+		driver.switchTo().newWindow(WindowType.TAB);
+		driver.switchTo().newWindow(WindowType.TAB);
+		//End
 		
 		Set<String> handles = driver.getWindowHandles();
 		Iterator<String> it = handles.iterator();
