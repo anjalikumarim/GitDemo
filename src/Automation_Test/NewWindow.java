@@ -24,6 +24,7 @@ public class NewWindow {
 		
 		driver.switchTo().newWindow(WindowType.TAB);
 		driver.switchTo().newWindow(WindowType.TAB);
+		driver.switchTo().newWindow(WindowType.TAB);
 		
 		
 		Set<String> handles = driver.getWindowHandles();
