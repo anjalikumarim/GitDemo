@@ -21,6 +21,12 @@ public class NewWindow {
 		driver.get("https://rahulshettyacademy.com/angularpractice/");
 		//Switching Window
 		driver.switchTo().newWindow(WindowType.TAB);
+
+		driver.switchTo().newWindow(WindowType.TAB);
+		driver.switchTo().newWindow(WindowType.TAB);
+		driver.switchTo().newWindow(WindowType.TAB);
+		
+		
 		Set<String> handles = driver.getWindowHandles();
 		Iterator<String> it = handles.iterator();
 		String ParentWindow = it.next();
